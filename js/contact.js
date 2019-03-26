@@ -26,7 +26,7 @@ $(document).ready(function(){
                 },
                 message: {
                     required: true,
-                    minlength: 20
+                    minlength: 10
                 }
             },
             messages: {
@@ -35,14 +35,14 @@ $(document).ready(function(){
                     minlength: "your name must consist of at least 2 characters"
                 },
                 subject: {
-                    required: "come on, you have a web address, don't you?",
+                    required: "come on, you gotta tell me what you wanna talk about?",
                     minlength: "your address must consist of at least 4 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "no email, no reply. Sorry! :D"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
+                    required: "um...yea, you have to write something to send a message.",
                     minlength: "thats all? really?"
                 }
             },
