@@ -65,3 +65,5 @@
 .footer_copyright .pull-right .navbar-nav li:hover a, .footer_copyright .pull-right .navbar-nav li.active a {
 	color: #fe2e86;
 }
+
+.cd-timeline-img.cd-picture { background: #fe2e86; }

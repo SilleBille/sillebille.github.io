@@ -66,20 +66,14 @@
   
   .cd-timeline-img img {
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
     position: relative;
     left: 50%;
     top: 50%;
-    margin-left: -12px;
-    margin-top: -12px;
+    margin-left: -18px;
+    margin-top: -18px;
   }
-  
-  .cd-timeline-img.cd-picture { background: #75ce66; }
-  
-  .cd-timeline-img.cd-movie { background: #c03b44; }
-  
-  .cd-timeline-img.cd-location { background: #f0ca45; }
   @media only screen and (min-width: 1170px) {
   
   .cd-timeline-img {
