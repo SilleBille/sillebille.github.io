@@ -8,8 +8,10 @@ function getAge() {
     }
     return age;
 }
-
-document.getElementById("myage").innerHTML = getAge();
+var elements = document.getElementsByClassName("myage");
+for (var i=0; i < elements.length; i++ ) {
+    elements[i].innerHTML = getAge();
+}
 
 jQuery(document).ready(function($){
     var $timeline_block = $('.cd-timeline-block');
