@@ -394,3 +394,6 @@
    transform: translateX(0);
   }
   }
+  .cd-timeline-content h6 {
+    line-height: 1.5;
+  }
