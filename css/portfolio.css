@@ -14,7 +14,7 @@
 }
 
 .cardPlaceHolder h2 {
-  font-size: 27px;
+  font-size: 3ch;
   font-weight: 500;
   letter-spacing: -0.2px;
   margin-bottom: 10px;
@@ -131,11 +131,11 @@
   max-width: 100%;
   height: 250px;
 }
-.front .img1 {
-  background-image: url(http://i.imgur.com/1aE1nMA.jpg);
+.front .retina {
+  background-image: url(../img/portfolio/retina.jpg);
 }
-.front .img2 {
-  background-image: url(http://i.imgur.com/2p9VXAn.jpg);
+.front .dynamic-calendar {
+  background-image: url(../img/portfolio/dynamic-calendar.png);
 }
 .front .img3 {
   background-image: url(http://i.imgur.com/I5ABT2v.jpg);
