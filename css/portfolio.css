@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.cardPlaceHolder h2, h4, p, ul, li {
+.cardPlaceHolder h2, .cardPlaceHolder h4, .cardPlaceHolder p, .cardPlaceHolder ul, .cardPlaceHolder li {
   margin: 0;
   padding: 0;
 }
@@ -20,14 +20,14 @@
   margin-bottom: 10px;
 }
 
-.cardPlaceHolder p, li {
+.cardPlaceHolder p, .cardPlaceHolder li {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #555;
   line-height: 22px;
 }
 
-.cardPlaceHolder ul, li {
+.cardPlaceHolder ul, .cardPlaceHolder li {
   text-decoration: none;
   list-style: disc outside;
 }
