@@ -14,7 +14,7 @@
 }
 
 .cardPlaceHolder h2 {
-  font-size: 3ch;
+  font-size: 27px;
   font-weight: 500;
   letter-spacing: -0.2px;
   margin-bottom: 10px;
@@ -137,8 +137,24 @@
 .front .dynamic-calendar {
   background-image: url(../img/portfolio/dynamic-calendar.png);
 }
-.front .img3 {
-  background-image: url(http://i.imgur.com/I5ABT2v.jpg);
+.front .shake-controller {
+  background-image: url(../img/portfolio/shake-controller.png);
+}
+
+.front .ram-disk {
+  background-image: url(../img/portfolio/ram-disk.png);
+}
+
+.front .ush {
+  background-image: url(../img/portfolio/ush.png);
+}
+
+.front .fend {
+  background-image: url(../img/portfolio/fend.png);
+}
+
+.front .energy-conservation {
+  background-image: url(../img/portfolio/energy-conservation.png);
 }
 
 .back {
