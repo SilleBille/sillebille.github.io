@@ -47,9 +47,9 @@
     function our_gallery(){
         if ( $('.portfolio_area').length ){
             // Activate isotope in container
-            $(".cardContainer").imagesLoaded( function() {
-                $(".cardContainer").isotope({
-                    itemSelector: ".card",
+            $(".cardPlaceHolder").imagesLoaded( function() {
+                $(".cardPlaceHolder").isotope({
+                    itemSelector: ".cardContainer",
                 }); 
             }); 
             // Add isotope click function
@@ -58,7 +58,7 @@
                 $(this).addClass("active");
 
                 var selector = $(this).attr("data-filter");
-                $(".cardContainer").isotope({
+                $(".cardPlaceHolder").isotope({
                     filter: selector,
                     animationOptions: {
                         duration: 450,

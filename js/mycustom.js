@@ -1,3 +1,4 @@
+/* Calculate Age and populate */
 function getAge() {
     var today = new Date();
     var birthDate = new Date("1993/07/27");
@@ -12,7 +13,10 @@ var elements = document.getElementsByClassName("myage");
 for (var i=0; i < elements.length; i++ ) {
     elements[i].innerHTML = getAge();
 }
+/* End Calculate Age and populate */
 
+
+/* Awards timeline start */
 jQuery(document).ready(function($){
     var $timeline_block = $('.cd-timeline-block');
     
@@ -32,7 +36,10 @@ jQuery(document).ready(function($){
         });
     });
 });
+/* Awards timeline end */
 
+
+/* Portfolio on-click function start */
 const cards = document.querySelectorAll('.card');
 
 function transition() {
@@ -44,4 +51,5 @@ function transition() {
 }
 
 cards.forEach(card => card.addEventListener('click', transition));
+/* Portfolio on-click function end */
  
