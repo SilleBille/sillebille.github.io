@@ -130,7 +130,7 @@
     $('.header_area .nav.navbar-nav li a[href^="#"]:not([href="#"])').on('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 80
+            scrollTop: $($anchor.attr('href')).offset().top - 79
         }, 1500);
         event.preventDefault();
     });
