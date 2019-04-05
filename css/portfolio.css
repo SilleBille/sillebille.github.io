@@ -134,9 +134,11 @@
 .front .retina {
   background-image: url(../img/portfolio/retina.jpg);
 }
+
 .front .dynamic-calendar {
   background-image: url(../img/portfolio/dynamic-calendar.png);
 }
+
 .front .shake-controller {
   background-image: url(../img/portfolio/shake-controller.png);
 }
@@ -149,12 +151,32 @@
   background-image: url(../img/portfolio/ush.png);
 }
 
+.front .devops {
+  background-image: url(../img/portfolio/devops.png);
+}
+
+.front .buffer-management {
+  background-image: url(../img/portfolio/buffer-management.png);
+}
+
 .front .fend {
   background-image: url(../img/portfolio/fend.png);
 }
 
 .front .energy-conservation {
   background-image: url(../img/portfolio/energy-conservation.png);
+}
+
+.front .myThread {
+  background-image: url(../img/portfolio/myThread.png);
+}
+
+.front .contacts-backup {
+  background-image: url(../img/portfolio/contacts-backup.png);
+}
+
+.front .energy-consumption {
+  background-image: url(../img/portfolio/energy-consumption.png);
 }
 
 .back {
