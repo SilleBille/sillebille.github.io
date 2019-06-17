@@ -46,6 +46,11 @@
 }
 .left_contact_details .media .media-left i {
 	background: #fe562e;
+	border: 1px solid #fe562e;
+}
+.left_contact_details .media:hover .media-left i {
+  background: transparent;
+  color: #fe562e;
 }
 .contact_btn {
 	background: #fe562e;
