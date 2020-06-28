@@ -955,7 +955,7 @@
                                     <h3>Send Message</h3>
                                 </div>
                                 <div class="row">
-                                    <form name="builtin-contact" data-netlify="true" method="post" id="contactForm" data-netlify-recaptcha="true">
+                                    <form method="post" id="contactForm" action="https://formspree.io/xgenlnzd">
                                         <div class="form-group col-md-12">
                                             <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*">
                                         </div>
@@ -968,18 +968,13 @@
                                         <div class="form-group col-md-12">
                                             <textarea class="form-control" rows="1" id="message" name="message" placeholder="Write Message*"></textarea>
                                         </div>
-                                        <div  class="form-group col-md-12" data-netlify-recaptcha="true">
+                                        <div class="form-group col-md-12">
+                                            <button class="btn btn-default contact_btn" id="send-message-button"><span>Send Message</span></button>
                                         </div>
                                         <div class="form-group col-md-12">
-                                            <button class="btn btn-default contact_btn" type="submit"><span>Send Message</span></button>
+                                            <b><p id="contact-form-status" class="media-body"></p></b>
                                         </div>
                                     </form>
-                                    <div id="success">
-                                        <p>Your text message sent successfully!</p>
-                                    </div>
-                                    <div id="error">
-                                        <p>Sorry! Message not sent. Something went wrong!!</p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
