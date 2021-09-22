@@ -27,6 +27,19 @@ function getPreferredStyleSheet() {
   return null;
 }
 
+function getPreferredStyleSheetForTheDay() {
+  var date = new Date().getDate();
+  console.log(date);
+  switch (date % 6) {
+    case 0: return "default"
+    case 1: return "orange"
+    case 2: return "pink"
+    case 3: return "violet"
+    case 4: return "blue"
+    case 5: return "past"
+  }
+}
+
 function createCookie(name,value,days) {
   if (days) {
     var date = new Date();
@@ -51,7 +64,7 @@ function readCookie(name) {
 window.onload = function(e) {
   var cookie = readCookie("style");
   // var title = cookie ? cookie : getPreferredStyleSheet();
-  title = "blue"
+  var title = getPreferredStyleSheetForTheDay();
   setActiveStyleSheet(title);
 }
 
@@ -61,5 +74,5 @@ window.onunload = function(e) {
 }
 
 var cookie = readCookie("style");
-var title = cookie ? cookie : getPreferredStyleSheet();
+var title = cookie ? cookie : getPreferredStyleSheetForTheDay();
 setActiveStyleSheet(title);
