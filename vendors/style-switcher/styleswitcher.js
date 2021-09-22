@@ -29,7 +29,6 @@ function getPreferredStyleSheet() {
 
 function getPreferredStyleSheetForTheDay() {
   var date = new Date().getDate();
-  console.log(date);
   switch (date % 6) {
     case 0: return "default"
     case 1: return "orange"
